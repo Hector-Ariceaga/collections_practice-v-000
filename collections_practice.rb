@@ -16,6 +16,6 @@ def swap_elements(array)
 end
 
 def swap_elements_from_to(array, index, destination_index)
-  array.insert(destination_index, array[index]).pop
+  array.insert(destination_index, array[index]).
   return array
 end
