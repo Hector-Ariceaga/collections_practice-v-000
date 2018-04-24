@@ -29,4 +29,5 @@ def kesha_maker(array)
     character.to_a
     character[2] = "$"
     character.join
+  end
 end
