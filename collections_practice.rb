@@ -14,3 +14,8 @@ def swap_elements(array)
   array.insert(1, array[2]).pop
   return array
 end
+
+def swap_elements_from_to(array, index, destination_index)
+  array. insert(array[index], array[destination_index])
+  return array
+end
