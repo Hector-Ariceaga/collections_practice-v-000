@@ -12,4 +12,5 @@ end
 
 def swap_elements(array)
   array.insert(1, array[2]).pop
+  return array
 end
