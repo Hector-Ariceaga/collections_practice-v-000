@@ -17,7 +17,6 @@ end
 
 def swap_elements_from_to(array, index, destination_index)
   array.insert(destination_index, array[index])
-  array.insert(destination_index, array[index-1])
   array.slice((index-1),1)
   return array
 end
