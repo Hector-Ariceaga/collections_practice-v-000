@@ -16,7 +16,6 @@ def swap_elements(array)
 end
 
 def swap_elements_from_to(array, index, destination_index)
-  mod_array = array.insert(destination_index, array[index])
-  mod_array = array.slice(index+1..array.length-1)
+  array[index], array [destination_index] = array[destination_index], array[index]
   return mod_array
 end
