@@ -28,6 +28,6 @@ def kesha_maker(array)
   array.each do |character|
     character.split("")
     character[2] = "$"
-    character.join
+    character.join(",")
   end
 end
