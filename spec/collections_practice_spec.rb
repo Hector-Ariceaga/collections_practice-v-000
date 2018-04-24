@@ -40,7 +40,7 @@ describe 'collections practice' do
   # Question 4 advanced 2.0
   describe '#swap_elements_from_to' do
     it 'checks again that moves specified index to new index in array' do
-      expect(swap_elements_from_to(["blake", "mike", "tom", "phil", "scott", "ashley"], 5, 0)).to eq(["ashley", "blake","mike", "tom", "phil", "scott"])
+      expect(swap_elements_from_to(["blake", "mike", "tom", "phil", "scott", "ashley"], 5, 0)).to eq(["ashley", "blake","mike", "tom", "phil", "scott", "blake"])
     end
   end    
   
